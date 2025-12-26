@@ -1,5 +1,15 @@
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import krishanddash from "../../assets/krishanddash.png";
+import myobdash from "../../assets/myobdash.png";
+import accurate from "../../assets/accuratedash.png";
+import oracledash from "../../assets/oracledash.png";
+import odoodash from "../../assets/odoodash.png";
+import zahironlinedash from "../../assets/zahironlinedash.png"
+import saperp from "../../assets/sapdash.png"
+import xerodash from "../../assets/xerodash.jpg"
+import jurnaliddash from "../../assets/jurnaliddash.jpg"
+import quickbookdash from "../../assets/quickbookdash.PNG"
 
 const AplikasiSistemInformasiAkuntansi = () => {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -14,7 +24,7 @@ const AplikasiSistemInformasiAkuntansi = () => {
       name: 'MYOB Accounting',
       category: 'umkm',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/MYOB_logo.svg/2560px-MYOB_logo.svg.png',
-      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: myobdash,
       description: 'MYOB (Mind Your Own Business) merupakan aplikasi SIA populer yang digunakan UMKM.',
       keunggulan: [
         'Tampilan sederhana',
@@ -28,7 +38,7 @@ const AplikasiSistemInformasiAkuntansi = () => {
       name: 'Accurate Accounting Software',
       category: 'umkm',
       logo: 'https://www.accurate.id/img/logo/accurate.svg',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: accurate,
       description: 'Accurate adalah aplikasi akuntansi paling banyak digunakan di Indonesia karena fiturnya lengkap.',
       keunggulan: [
         'Mendukung multiuser',
@@ -44,7 +54,7 @@ const AplikasiSistemInformasiAkuntansi = () => {
       name: 'Krishand',
       category: 'pajak',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Krishand_logo.svg/1200px-Krishand_logo.svg.png',
-      image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: krishanddash,
       description: 'Krishand terkenal sebagai software perpajakan.',
       fungsi: [
         'Mengelola PPh, PPN, dan e-SPT',
@@ -57,7 +67,7 @@ const AplikasiSistemInformasiAkuntansi = () => {
       name: 'SAP ERP',
       category: 'enterprise',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2560px-SAP_2011_logo.svg.png',
-      image: 'https://images.unsplash.com/photo-1642790553124-4c56d74c5a65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: saperp,
       description: 'SAP adalah software kelas dunia untuk perusahaan besar (enterprise).',
       modul: [
         'Keuangan',
@@ -73,7 +83,7 @@ const AplikasiSistemInformasiAkuntansi = () => {
       name: 'Oracle Financial Services',
       category: 'enterprise',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/2560px-Oracle_logo.svg.png',
-      image: 'https://images.unsplash.com/photo-1544380907-d58c1cfc029c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: oracledash,
       description: 'Software ini digunakan oleh perbankan dan perusahaan multinasional.',
       keunggulan: [
         'Sangat aman',
@@ -85,7 +95,7 @@ const AplikasiSistemInformasiAkuntansi = () => {
       name: 'Odoo',
       category: 'enterprise',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Odoo_Logo.svg/2560px-Odoo_Logo.svg.png',
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: odoodash,
       description: 'Odoo merupakan ERP modern yang bersifat open-source.',
       keunggulan: [
         'Bisa dikustomisasi',
@@ -98,28 +108,28 @@ const AplikasiSistemInformasiAkuntansi = () => {
       name: 'Jurnal.id',
       category: 'cloud',
       logo: 'https://www.jurnal.id/wp-content/uploads/2021/12/jurnal-logo-color.svg',
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: jurnaliddash,
       description: 'Jurnal.id merupakan aplikasi akuntansi berbasis cloud yang populer di Indonesia.'
     },
     zahir: {
       name: 'Zahir Online',
       category: 'cloud',
       logo: 'https://zahironline.com/images/logo.png',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: zahironlinedash,
       description: 'Zahir Online adalah solusi akuntansi cloud untuk berbagai skala bisnis.'
     },
     quickbooks: {
       name: 'QuickBooks Online',
       category: 'cloud',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Intuit_QuickBooks_logo.svg/2560px-Intuit_QuickBooks_logo.svg.png',
-      image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: quickbookdash,
       description: 'QuickBooks Online adalah platform akuntansi cloud internasional.'
     },
     xero: {
       name: 'Xero Accounting',
       category: 'cloud',
       logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Xero_software_logo.svg/2560px-Xero_software_logo.svg.png',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+      image: xerodash,
       description: 'Xero adalah aplikasi akuntansi cloud yang populer di tingkat internasional.'
     }
   };
