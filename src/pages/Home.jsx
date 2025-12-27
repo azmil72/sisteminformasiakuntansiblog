@@ -189,7 +189,7 @@ const Home = () => {
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 sm:p-6 lg:p-8 mb-6 sm:mb-8 mx-2 sm:mx-0">
           <TextType 
 
-  text={["Kelompok 2", "Ekonomi Syariah"]}
+  text={["Kelompok 3", "Ekonomi Syariah"]}
 
   typingSpeed={75}
 
@@ -218,7 +218,7 @@ const Home = () => {
             <div className="bg-green-50 dark:bg-green-900/30 p-4 sm:p-6 rounded-lg">
               <h3 className="text-base sm:text-lg font-semibold mb-2 sm:mb-3 dark:text-white">Langsung ke Pembahasan</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-3 sm:mb-4 text-sm sm:text-base">Akses langsung ke materi inti pembahasan SIA.</p>
-              <Link to="/pembahasan/sistem-informasi-akuntansi" className="inline-block bg-green-600 text-white px-3 sm:px-4 py-2 rounded text-sm sm:text-base hover:bg-green-700 transition-colors">
+              <Link to="/pembahasan/pengertian-sia-mendalam" className="inline-block bg-green-600 text-white px-3 sm:px-4 py-2 rounded text-sm sm:text-base hover:bg-green-700 transition-colors">
                 Pembahasan
               </Link>
             </div>
