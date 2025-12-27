@@ -202,7 +202,7 @@ const Home = () => {
 
 />
 <ol className="space-y-2 text-gray-700 dark:text-gray-300">
-  {["WALIMATUS SYAHIDAH","TRI DWI UTAMI","SILVIA ROBBILINA A","SYARIF RIZALDY"].map((nama, i) => (
+  {["WALIMATUS SYAHIDAH","TRI DEWI UTAMI","SILVIA ROBBILINA A","MUHAMMAD SYARIF RIZALDY"].map((nama, i) => (
     <li key={i} className="flex items-center gap-3">
       <span className="bg-blue-600 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm">
         {i + 1}
@@ -255,16 +255,6 @@ Mempelajari SIA juga memberikan kemampuan analisis dan pemecahan masalah yang le
         
         {/* Quick Navigation Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mx-2 sm:mx-0">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 sm:p-6 hover:shadow-lg transition-shadow hover:-translate-y-1 transition-transform duration-300">
-            <h3 className="text-base sm:text-lg font-semibold mb-2 text-purple-600 dark:text-purple-400">Konsep Dasar</h3>
-            <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base mb-3">Pelajari definisi dan komponen SIA</p>
-            <Link to="/pembahasan/sistem-informasi-akuntansi" className="text-purple-600 dark:text-purple-400 hover:text-purple-800 dark:hover:text-purple-300 text-sm font-medium inline-flex items-center">
-              Baca Selengkapnya 
-              <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-              </svg>
-            </Link>
-          </div>
           
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 sm:p-6 hover:shadow-lg transition-shadow hover:-translate-y-1 transition-transform duration-300">
             <h3 className="text-base sm:text-lg font-semibold mb-2 text-red-600 dark:text-red-400">Manajemen Risiko</h3>
