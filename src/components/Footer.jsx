@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-6 sm:mt-8 pt-4 text-center text-gray-400 text-sm sm:text-base">
-          <p>&copy; 2025 Sistem Informasi Akuntansi. All rights reserved.</p>
+          <p>&copy; 2025 Make with ❤️   All rights reserved.</p>
         </div>
       </div>
     </footer>
